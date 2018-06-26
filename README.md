@@ -10,6 +10,7 @@ Python3 Multi-Threaded Reverse Shell Prototype
 ### Server
 ###### Setup:
  Update Host and Port in server.py
+ 
 
 ######  Commands:
  - `list`: Prints a directory of connected clients. Can be used in conjunction with select.
@@ -17,7 +18,8 @@ Python3 Multi-Threaded Reverse Shell Prototype
 
 
 ### Client Setup
-[Optional]: Convert client.py to an .EXE using: `python3 setup.py build`
+- Launch the client-side script with `python3 client.py`
+- [Optional] Convert client.py to an .EXE using: `python3 setup.py build`
 
 
 ### Changelog
