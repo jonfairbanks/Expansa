@@ -9,12 +9,14 @@ Python3 Multi-Threaded Reverse Shell Prototype
 
 ### Server
 ###### Setup:
- Update Host and Port in server.py
- 
+ - Update Host and Port in server.py
+ - Launch the script with `python3 server.py`
+ - Wait for clients to connect...
 
 ######  Commands:
  - `list`: Prints a directory of connected clients. Can be used in conjunction with select.
  - `select`: Used to select a remote client returned by the list command. Expects a number.
+ - `quit`|`exit`: Exit the current client session.
 
 
 ### Client Setup
